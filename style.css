@@ -3,7 +3,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
+header,
+footer {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
@@ -16,7 +17,8 @@ header {
   font-weight: bold;
 }
 
-.header-links {
+.header-links,
+footer {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -25,4 +27,14 @@ header ul {
   list-style: none;
   display: flex;
   gap: 32px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  justify-content: center;
 }
