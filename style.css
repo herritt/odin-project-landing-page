@@ -36,9 +36,14 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 footer {
   justify-content: center;
+  align-content: center;
 }
