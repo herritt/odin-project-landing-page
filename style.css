@@ -4,7 +4,8 @@
 }
 
 header,
-footer {
+footer,
+.hero {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
@@ -34,16 +35,41 @@ a {
 }
 
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
-main {
+.hero {
   flex: 1;
 }
 
+.random-info {
+  background-color: purple;
+}
+
+.quote {
+  background-color: green;
+}
+
+.call-to-action {
+  background-color: pink;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18x;
+  color: #e5e7eb;
+  max-width: 40ch;
+}
+
 footer {
+  margin-top: auto;
   justify-content: center;
   align-content: center;
 }
