@@ -60,12 +60,22 @@ body {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  max-width: 30ch;
 }
 
 .hero p {
   font-size: 18x;
   color: #e5e7eb;
-  max-width: 40ch;
+  max-width: 50ch;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 0.5ch;
+  border-width: 0;
+  padding: 0.5ch 2ch;
+  margin-top: 1ch;
 }
 
 footer {
