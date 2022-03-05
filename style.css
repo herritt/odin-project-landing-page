@@ -65,6 +65,10 @@ body {
   max-width: 10em;
 }
 
+.image-section-images img {
+  border-radius: 25%;
+}
+
 .random-info h2 {
   font-size: 36px;
   font-weight: bolder;
@@ -73,8 +77,24 @@ body {
   padding: 1ch;
 }
 
+.quote-container {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
 .quote {
-  background-color: green;
+  padding: 5em;
+}
+
+.quote figcaption,
+.quote blockquote {
+  max-width: 50ch;
+}
+
+.quote figcaption {
+  font-weight: bold;
+  text-align: right;
 }
 
 .call-to-action {
