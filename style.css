@@ -30,7 +30,6 @@ html {
   --header-link-font-weight: var(--font-weight-normal);
   --header-link-font-colour: var(--colour-primary-light);
 
-
   /* Hero Section*/
   --hero-bg-colour: var(--colour-bg-dark);
 
@@ -41,7 +40,6 @@ html {
   --hero-secondary-font-size: var(--font-size-200);
   --hero-secondary-font-weight: var(--font-weight-normal);
   --hero-secondary-font-colour: var(--colour-primary-light);
-
 
   /* Information Section*/
   --information-bg-colour: var(--colour-bg-light);
@@ -61,15 +59,14 @@ html {
   --quote-main-font-weight: var(--font-weight-extra-bold);
   --quote-main-font-colour: var(--colour-accent-dark);
 
-  /* Footer Section */
-  --footer-bg-colour: var(--colour-bg-dark);
-  --footer-font-colour: var(var(--colour-primary-light);
-
   /* CTA Section */
   --cta-bg-colour: var(--colour-primary-light);
   --cta-card-bg-colour: var(--colour-accent-dark);
   --cta-card-font-colour: var(--colour-accent-light);
-  
+
+  /* Footer Section */
+  --footer-bg-colour: var(--colour-bg-dark);
+  --footer-font-colour: var(--colour-primary-light);
 }
 
 * {
