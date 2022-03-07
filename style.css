@@ -1,0 +1,49 @@
+root {
+  /* Custom Properties */
+
+  /* Colours */
+  --colour-primary-dark: #1f2937;
+  --colour-primary-light: #e5e7eb;
+  --colour-accent: #3882f6;
+
+  --colour-text-accent: #f9faf8;
+  --colour-text-secondary: var(--colour-primary-light);
+  --colour-bg-dark: var(--colour-primary-dark);
+  --colour-bg-light: var(--colour-primary-light);
+  --colour-bg-accent: var(--colour-accent);
+  --colour-button: var(--colour-bg-accent);
+
+  /* Font sizes*/
+  --font-size-200: 18px;
+  --font-size-500: 24px;
+  --font-size-700: 36px;
+  --font-size-900: 48px;
+
+  /* Font Family */
+  --ff: sans-serif;
+  --font-weight-normal: 700;
+  --font-weight-extra-bold: 900;
+
+  /* Hero Section*/
+  --hero-bg-colour: var(--colour-bg-dark);
+  --hero-main-font-size: var(--font-size-900);
+  --hero-main-font-weight: var(--font-weight-extra-bold);
+  --hero-main-font-colour: var(--colour-text-primary);
+
+  --hero-secondary-font-size: var(--font-size-200);
+  --hero-secondary-font-weight: var(--font-weight-normal);
+  --hero-secondary-font-colour: var(--colour-text-secondary);
+
+  --hero-logo-font-size: var(--font-size-500);
+  --hero-logo-font-colour: var(--colour-text-primary);
+
+  /* Information Section*/
+  --information-bg-colour: var(--colour-bg-light);
+  --information-header-font-size: var(--font-size-700);
+  --information-header-font-weight: var(--font-weight-extra-bold);
+  --information-header-font-colour: var(--colour-bg-dark);
+  --information-font-size: var(--font-size-700);
+
+  /* Quote Section */
+  --quote-bg-colour: var(--colour-bg-light);
+}
