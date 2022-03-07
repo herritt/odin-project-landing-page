@@ -77,6 +77,8 @@ html {
   padding: 0;
 }
 
+/* Header */
+
 .header {
   display: flex;
   background-color: var(--header-bg-colour);
@@ -108,5 +110,35 @@ html {
   color: var(--header-link-font-colour);
   font-size: var(--header-link-font-size);
   font-weight: var(--header-link-font-weight);
+  margin-left: 1em;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  background-color: var(--hero-bg-colour);
+  padding: 1em var(--side-padding);
+  color: var(--hero-main-font-colour);
+  font-size: var(--hero-secondary-font-size);
+}
+
+.hero-left-side {
+  flex-basis: 100%;
+}
+
+.hero-left-side h1 {
+  font-size: var(--hero-main-font-size);
+}
+
+.hero-left-side button {
+  background-color: var(--colour-accent-dark);
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25em;
+  color: var(--colour-accent-light);
+}
+
+.hero-right-side {
+  flex-basis: 100%;
   margin-left: 1em;
 }
