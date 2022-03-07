@@ -20,7 +20,7 @@ html {
   --font-weight-extra-bold: 900;
 
   /* header */
-  --header-bg-colour: var(--colour-bg-dark);
+  --header-bg-colour: var(--colour-primary-dark);
 
   --header-logo-font-size: var(--font-size-500);
   --header-logo-font-weight: var(--font-weight-bold);
@@ -31,7 +31,7 @@ html {
   --header-link-font-colour: var(--colour-primary-light);
 
   /* Hero Section*/
-  --hero-bg-colour: var(--colour-bg-dark);
+  --hero-bg-colour: var(--colour-primary-dark);
 
   --hero-main-font-size: var(--font-size-900);
   --hero-main-font-weight: var(--font-weight-extra-bold);
@@ -42,7 +42,7 @@ html {
   --hero-secondary-font-colour: var(--colour-primary-light);
 
   /* Information Section*/
-  --information-bg-colour: var(--colour-bg-light);
+  --information-bg-colour: var(--colour-primary-light);
 
   --information-header-font-size: var(--font-size-700);
   --information-header-font-weight: var(--font-weight-extra-bold);
@@ -67,9 +67,46 @@ html {
   /* Footer Section */
   --footer-bg-colour: var(--colour-bg-dark);
   --footer-font-colour: var(--colour-primary-light);
+
+  /* Padding */
+  --side-padding: 8em;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: var(--header-bg-colour);
+  padding: 1em var(--side-padding);
+}
+
+.header-logo {
+  color: var(--header-logo-font-colour);
+  font-size: var(--header-logo-font-size);
+  font-weight: var(--header-logo-font-weight);
+}
+
+.header-links {
+  display: flex;
+  flex: 1;
+  font-size: var(--header-link-font-size);
+}
+
+.header-links ul {
+  display: flex;
+  flex: 1;
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.header-links ul a {
+  text-decoration: none;
+  color: var(--header-link-font-colour);
+  font-size: var(--header-link-font-size);
+  font-weight: var(--header-link-font-weight);
+  margin-left: 1em;
 }
