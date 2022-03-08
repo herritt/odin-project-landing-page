@@ -50,7 +50,7 @@ html {
 
   --information-normal-font-size: var(--font-size-200);
   --information-normal-font-weight: var(--font-weight-normal);
-  --information-normal-font-colour: var(--colour-primary-light);
+  --information-normal-font-colour: var(--colour-primary-dark);
 
   /* Quote Section */
   --quote-bg-colour: var(--colour-bg-light);
@@ -141,4 +141,33 @@ html {
 .hero-right-side {
   flex-basis: 100%;
   margin-left: 1em;
+}
+
+/* Information Section */
+.random-info {
+  background-color: var(--information-bg-colour);
+  color: var(--information-normal-font-colour);
+  padding: 1em var(--side-padding);
+}
+
+.random-info h2 {
+  color: var(--information-header-font-colour);
+  font-size: var(--information-header-font-size);
+  font-weight: var(--information-header-font-weight);
+
+  text-align: center;
+}
+
+.image-section-images,
+.image-section-text {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+}
+
+.image-section-images img,
+.image-section-text p {
+  flex: 1 1 100%;
+  width: 2em;
+  padding: 1em;
 }
