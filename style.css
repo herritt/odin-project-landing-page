@@ -60,12 +60,12 @@ html {
   --quote-main-font-colour: var(--colour-accent-dark);
 
   /* CTA Section */
-  --cta-bg-colour: var(--colour-primary-light);
+  --cta-bg-colour: white;
   --cta-card-bg-colour: var(--colour-accent-dark);
   --cta-card-font-colour: var(--colour-accent-light);
 
   /* Footer Section */
-  --footer-bg-colour: var(--colour-bg-dark);
+  --footer-bg-colour: var(--colour-primary-dark);
   --footer-font-colour: var(--colour-primary-light);
 
   /* Padding */
@@ -165,7 +165,10 @@ html {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* max-width: 90%; */
+
+  font-size: var(--information-normal-font-colour);
+  font-weight: var(--information-normal-font-weight);
+  color: var(--information-normal-font-colour);
 }
 
 .image-section-images img,
@@ -191,4 +194,33 @@ html {
 figcaption {
   text-align: right;
   font-weight: bold;
+}
+
+/* cta */
+.cta {
+  background-color: var(--cta-bg-colour);
+}
+
+.cta--blue-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2em 3em;
+  margin: 3em 10em;
+  background-color: var(--cta-card-bg-colour);
+  border-radius: 0.75em;
+
+  color: var(--cta-card-font-colour);
+}
+
+.blue-button {
+  background-color: var(--cta-card-bg-colour);
+  color: var(--cta-card-font-colour);
+  border-color: var(--colour-accent-light);
+  border-radius: 0.25ch;
+  padding: 0.25ch 1ch;
+  margin-left: 2em;
+
+  cursor: pointer;
 }
