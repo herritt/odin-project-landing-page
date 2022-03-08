@@ -133,12 +133,14 @@ html {
 
 .hero-left-side h1 {
   font-size: var(--hero-main-font-size);
+  margin-bottom: 1em;
 }
 
 .hero-left-side button {
   cursor: pointer;
   background-color: var(--colour-accent-dark);
   padding: 0.5em 1em;
+  margin: 1em 0;
   border: none;
   border-radius: 0.25em;
   color: var(--colour-accent-light);
