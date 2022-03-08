@@ -180,6 +180,8 @@ html {
 
 .quote-container {
   background-color: var(--quote-bg-colour);
+  padding: 3em 5em;
+  font-size: var(--quote-main-font-size);
 }
 
 .quote {
