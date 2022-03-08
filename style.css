@@ -42,7 +42,7 @@ html {
   --hero-secondary-font-colour: var(--colour-primary-light);
 
   /* Information Section*/
-  --information-bg-colour: var(--colour-primary-light);
+  --information-bg-colour: white;
 
   --information-header-font-size: var(--font-size-700);
   --information-header-font-weight: var(--font-weight-extra-bold);
@@ -53,7 +53,7 @@ html {
   --information-normal-font-colour: var(--colour-primary-dark);
 
   /* Quote Section */
-  --quote-bg-colour: var(--colour-bg-light);
+  --quote-bg-colour: var(--colour-primary-light);
 
   --quote-main-font-size: var(--font-size-700);
   --quote-main-font-weight: var(--font-weight-extra-bold);
@@ -103,6 +103,7 @@ html {
   text-decoration: none;
   list-style: none;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .header-links ul a {
@@ -131,6 +132,7 @@ html {
 }
 
 .hero-left-side button {
+  cursor: pointer;
   background-color: var(--colour-accent-dark);
   padding: 0.5em 1em;
   border: none;
@@ -162,12 +164,29 @@ html {
 .image-section-text {
   display: flex;
   justify-content: space-between;
-  max-width: 90%;
+  flex-wrap: wrap;
+  /* max-width: 90%; */
 }
 
 .image-section-images img,
 .image-section-text p {
   flex: 1 1 100%;
-  width: 2em;
+  max-width: 5em;
   padding: 1em;
+  border-radius: 0.25em;
+}
+
+/* Quote Section */
+
+.quote-container {
+  background-color: var(--quote-bg-colour);
+}
+
+.quote {
+  text-align: left;
+}
+
+figcaption {
+  text-align: right;
+  font-weight: bold;
 }
