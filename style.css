@@ -68,6 +68,10 @@ html {
   --footer-bg-colour: var(--colour-primary-dark);
   --footer-font-colour: var(--colour-primary-light);
 
+  --footer-main-font-size: var(--font-size-200);
+  --footer-main-font-weight: var(--font-weight-normal);
+  --footer-main-font-colour: var(--colour-primary-light);
+
   /* Padding */
   --side-padding: 8em;
 }
@@ -223,4 +227,14 @@ figcaption {
   margin-left: 2em;
 
   cursor: pointer;
+}
+
+footer {
+  background-color: var(--footer-bg-colour);
+  color: var(--footer-font-colour);
+  font-size: var(--footer-header-font-size);
+  font-weight: var(--footer-header-font-weight);
+
+  text-align: center;
+  padding: 1em;
 }
